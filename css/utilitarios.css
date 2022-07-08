@@ -1,0 +1,38 @@
+:root{
+   --cor-cinza: #B2B2B2;
+}
+
+.grid-padrao{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 40px;
+   max-width: 1200px;
+   box-sizing: border-box;
+   margin: 0 auto;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.ponto-amarelo{
+   color: #FFBB00;
+   border-radius: 10px;
+}
+
+.link-amarelo{
+   display: inline-block;
+   color: #FFBB00;
+   text-transform: uppercase;
+   font-size: 1.5rem;
+}
+
+.link-amarelo::after{
+   content: "";
+   height: 4px;
+   width: 100%;
+   background-color: currentColor;
+   display: block;
+}
+
+.link-amarelo:hover{
+   color: #ffffff;
+}
