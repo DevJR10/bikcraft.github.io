@@ -228,6 +228,12 @@ main{
    }
 }
 
+@media (max-width:450px){
+   .main-container{
+      padding-top: 25px;
+   }
+}
+
 /* Biclicletas lista */
 .bicicletas-lista{
    padding: 60px 0 120px 0;
